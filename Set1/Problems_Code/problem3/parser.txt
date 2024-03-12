@@ -1,0 +1,9 @@
+set terminal pngcairo enhanced size 800,600
+set output 'trajectory_b09.png'
+
+set xlabel 'X'
+set ylabel 'Y'
+set title 'Henon Map Trajectory for x0 = 0 , b = 0.9 , a = 0.25'
+
+plot 'trajectory_b09.txt' with points pointtype 7 pointsize 0.5 title 'a = 0.25 b = 0.9'
+
